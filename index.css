@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,241,1) 100%);   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Helvetica Neue";
+   flex-direction: column;
+ }
+.container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(111, 167, 170);
+    border-radius: 10px;
+}
+.pic-section{
+    width: 100%;
+    height: 20%;
+    /* border-radius:10px; */
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(77, 150, 177);
+}
+.section-img{
+    margin-left: 200px;
+}
+.pav_img{
+    height: 100%;
+    width: 100%;
+}
+.remSize{
+    width: 100px;
+    margin-left: 10px;
+    border-radius:40px 40px 40% 40%;
+    padding: 2px 0px 0px 2px;
+    box-shadow: 2px 2px 2px 0px rgb(12, 40, 49) ;
+}
+.namesection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    margin-left: 50px;
+}  
+.bothside{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: row;
+}
+.leftSide{
+    width: 50%;
+    margin:10px 10px 10px 0px;
+    /* background-color: rgb(31, 70, 154); */
+  
+  border-right: 1px solid rgb(4, 4, 4);
+}
+.makemove{
+    padding: 0px 0px 0px 10px;
+}
+.contact{
+    border-radius:10px;
+    width: 100%;
+    /* height: 100px; */
+    margin-left: 2px;
+      
+}
+.education{
+    margin: 2px 0px 0px 0px;
+    border-radius:10px;
+    margin-left: 2px;
+   
+}
+.techSkill{
+    margin: 2px 0px 0px 0px;
+    border-radius:10px;
+    margin-left: 2px;
+   
+}
+.littlecenter{
+    padding-left: 100px;
+}
+.softskills{
+    margin: 2px 0px 0px 0px;
+    border-radius:10px;
+    margin-left: 2px;
+     
+}
+.certificates{
+    margin: 2px 0px 0px 0px;
+    border-radius:10px;
+    margin-left: 2px;
+     
+}
+.Languages{
+    margin: 2px 0px 0px 0px;
+    border-radius:10px;
+    margin-left: 2px;
+    width: 100%;
+     
+}
+.rigthside{
+    width: 50%;
+    margin:10px 10px 10px 0px;
+    border-radius:20px;
+}
+.objective{
+    border-radius:10px;
+    width: 100%;
+     
+}
+.project{
+    margin: 2px 0px 0px 0px;
+    border-radius:10px;
+    width: 100%;
+
+   
+}
+/* .declaration{
+    margin: 2px 0px 0px 0px;
+    border-radius:10px;
+    width: 100%;
+    
+} */
